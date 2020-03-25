@@ -15,8 +15,8 @@ import org.apache.logging.log4j.LogManager;
 
 class GrowthHandler {
     private XORShiftRandom random = new XORShiftRandom();
-    private static final int invSeedDropChance = 40000;
-    private static final int invPlantDropChance = 40000;
+    private static final int invSeedDropChance = 1000;
+    private static final int invPlantDropChance = 1000;
 
     private boolean eventHappens(int chance) {
         int curInt = random.nextInt();
